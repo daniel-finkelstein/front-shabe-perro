@@ -59,7 +59,6 @@ const HomePage = () => {
       .finally(() => setIsLoading(false));
   }, [token]);
 
-  // Nueva solicitud para obtener los jugadores top-players
   useEffect(() => {
     if (token) {
       axios({
