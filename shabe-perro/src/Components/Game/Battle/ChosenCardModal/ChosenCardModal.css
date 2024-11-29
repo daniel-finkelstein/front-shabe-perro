@@ -1,0 +1,100 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%; /* Ajusta el ancho del modal para eliminar barras de desplazamiento */
+    max-width: 800px;
+    max-height: 80%;
+    overflow-y: auto; /* Solo habilita el desplazamiento vertical si es necesario */
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px 10px; 
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 250px; /* Alarga las cartas verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.disabled {
+    background: #ccc;
+    pointer-events: none;
+}
+
+.card.selected {
+    background: #87ceeb;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: center; /* Centra el botón */
+    margin-top: 20px;
+}
+
+.battle-button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Aumenta el tamaño del botón */
+    border-radius: 10px; /* Hace los bordes del botón más redondeados */
+    font-size: 18px; /* Aumenta el tamaño de la fuente */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.battle-button:hover {
+    background: #006400;
+    transform: scale(1.05); /* Agrega un efecto de zoom al pasar el mouse */
+}
+
+.battle-button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+.close-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: black;
+    text-align: center;
+}

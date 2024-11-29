@@ -1,0 +1,9 @@
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dice-container {
+    margin-bottom: 20px; 
+}

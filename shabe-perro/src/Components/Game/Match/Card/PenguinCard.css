@@ -1,0 +1,28 @@
+.penguin-card {
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.penguin-card.selectable {
+    cursor: pointer;
+}
+
+.card-type {
+    font-family: Futura Display;
+    font-size: 20px;
+}
+
+.card-value {
+    font-family: Futura Display;
+    font-size: 40px;
+}
+
+.penguin-card.selected {
+    background-color: rgba(0, 0, 255, 0.05);
+    border: 3px solid blue;
+}

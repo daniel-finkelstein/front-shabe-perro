@@ -1,0 +1,44 @@
+.about-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .group-photo img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .person-section {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .person-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .person-details {
+    text-align: left;
+  }
+  
+  .person-details h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .person-details p {
+    font-size: 16px;
+    color: #555;
+  }
+  

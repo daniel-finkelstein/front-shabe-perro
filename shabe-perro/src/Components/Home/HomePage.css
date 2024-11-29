@@ -1,0 +1,27 @@
+.homepage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  flex: 1;
+}
+
+.homepage .buttons {
+  margin: 0
+}
+
+.homepage .white-box {
+  width: 100%
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-column {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}

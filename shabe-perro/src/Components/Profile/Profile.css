@@ -1,0 +1,44 @@
+.login {
+  background: white;
+  border-radius: 5px;
+  width: 80%;
+  padding: 1.5rem 2rem;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+  position: relative;
+}
+
+.login .inputs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.inputs-grid input {
+  padding: 20px 80px 20px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.5)
+}
+
+.inputs-grid input:focus {
+  border-color: black;
+  outline: none;
+}
+
+.inputs-grid.error input {
+  border-color: red;
+}
+
+.error-message {
+  font-family: Futura Medium;
+  font-size: 20px;
+  color: red;
+  margin: 20px 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

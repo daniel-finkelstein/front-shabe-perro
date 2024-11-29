@@ -1,0 +1,29 @@
+nav {
+  width: 100%;
+  margin: 10px 0;
+  text-align: left;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  color: white;
+  margin: 0 30px 0 0
+}
+
+nav a {
+  display: inline;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 30px 0 0;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

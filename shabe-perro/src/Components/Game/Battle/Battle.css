@@ -1,0 +1,26 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .choose-card-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #4caf50; /* Verde */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .choose-card-button:hover {
+    background-color: #45a049; /* Verde más oscuro */
+  }
+  
+  .choose-card-button:active {
+    background-color: #39843b;
+  }
+  
