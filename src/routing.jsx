@@ -5,7 +5,7 @@ import Signup from './Components/Profile/Signup';
 import Match from './Components/Game/Match/Match';
 import Battle from './Components/Game/Battle/Battle';
 import HomePage from './Components/Home/HomePage';
-import App from './Common/App';
+import App from './common/App';
 import Rules from './Components/Rules/Rules';
 import Search from './Components/Search/Search';
 import EditProfile from './Components/Profile/Edit';
